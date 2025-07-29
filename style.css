@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9efd0;
+  color: #333;
+  line-height: 1.6;
+}
+.header-div{
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(48, 67, 48);
+    padding:10px;
+    padding-top:10px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin-top:0;
+    margin-left: auto;
+    margin-right:5px;
+    padding-top: 0;
+    align-content: space-between;
+    gap:10rem;
+    list-style: none;
+    text-decoration-line: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor:pointer;
+    max-width:600px;
+}
+.nav-bar:hover{
+    color:rgb(48, 67, 48);
+    
+    
+}
+.about{
+    text-align: center;
+    margin-top:200px;
+    height:200px;
+    background-color:rgb(48, 67, 48);
+    padding-top:20px;
+    justify-items: center;
+}
+.about-who{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 175);
+    max-width: 600px;
+    text-align: center; 
+    justify-content: center;  
+    
+
+}
+.about-me{
+    font-size: 20px;
+    color: rgb(255, 255, 175);
+    max-width: 600px;
+    margin-top:30px;
+    text-align: center;   
+    justify-content: center;
+    
+}
+.link-skill{
+    display:flex;
+    flex-wrap:wrap;
+    height:300px;
+    justify-content: center;
+    margin-top: 100px;
+    padding:10px;
+    gap:100px;
+   
+
+}
+.links{
+    width:300px;
+    height:300px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:  rgb(48, 67, 48);
+    padding:15px;
+     color: rgb(48, 67, 48);
+    background-color:rgb(255, 255, 175);
+    justify-content:center;
+   box-shadow: 30px 30px 30px rgb(48, 67, 48);;
+  transition: transform 0.3s;
+
+}
+.skills{
+    width:300px;
+    height:300px;
+    border-style:solid;
+    border-width:3px;
+    padding:15px;
+     border-color:  rgb(48, 67, 48);;
+     color: rgb(48, 67, 48);
+    background-color:rgb(255, 255, 175);
+    justify-content: center;
+     box-shadow: 30px 30px 30px rgb(48, 67, 48);;
+  transition: transform 0.3s;
+    
+
+
+    
+}
+.link-title{
+    font-size:30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:50px;
+
+}
+.link-s{
+    
+    list-style: none;
+    text-decoration-line: none;
+    
+    font-size: 20px;
+    font-display:swap;
+    text-align: center;
+}
+.skill-title{
+     font-size:30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+.skill-s{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    font-display:swap;
+    text-align: center;
+    margin-inline: 50px;
+
+}
+.contact{
+    margin-top:200px;
+    height: 100px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.email{
+    height:40px;
+    width:270px;
+    background-color:rgb(48, 67, 48);
+    color: rgb(255, 255, 175);
+    font-size: 20px;
+    font-weight: bolder;
+    border-style: double;
+    border-width: 3px;
+    border-color:rgb(255, 255, 175);
+    cursor: pointer;
+}
+
+
+.email:hover {
+    color:rgb(48, 67, 48);
+    background-color: rgb(255, 255, 175);
+    border-color:rgb(48, 67, 48);
+    
+}
+footer{
+  margin-top:300px;
+   justify-items: center;
+    font-size: 12px;
+    background-color: rgb(255, 255, 175);
+
+
+}
+.contact-title{
+     font-size:30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:50px;
+
+}
+.name{
+    align-items: center;
+    font-size:18px;
+    font-weight: bolder;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+
+  .header-div {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .about {
+    margin-top: 100px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .about-who,
+  .about-me {
+    font-size: 18px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .link-skill {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .skills,
+  .links {
+    width: 90%;
+    height: auto;
+    box-shadow: 10px 10px 20px rgba(48, 67, 48, 0.3);
+  }
+
+  .skill-title,
+  .link-title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  .skill-s,
+  .link-s li {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .contact {
+    margin-top: 100px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .email {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+  }
+}
